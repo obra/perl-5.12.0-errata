@@ -1,0 +1,13 @@
+Perl 5.12.0 was released on April XX, 2010.
+
+This document summarizes the known issues in the 5.12.0 release as well as 
+CPAN modules known to be incompatible with Perl 5.12.0.
+
+Perl 5.12.1 will be released on May XX, 2010. Issues fixed in 5.12.1
+are annotated as "[fixed: 5.12.1]"
+
+= Bugs in 5.12.0 =
+
+= CPAN modules known to have issues with 5.12.0 =
+
+* 
