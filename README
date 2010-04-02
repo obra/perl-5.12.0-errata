@@ -11,3 +11,23 @@ are annotated as "[fixed: 5.12.1]"
 = CPAN modules known to have issues with 5.12.0 =
 
 * 
+= Features deprecated in earlier releases of Perl which didn't previously warn =
+
+        "do" to call subroutines                                                
+        *glob{FILEHANDLE}                                                       
+        -P                                                                      
+        :unique                                                                 
+        a hash as a reference                                                   
+        an array as a reference                                                 
+        array missing the @ in argument                                         
+        bare << to mean <<""                                                    
+        chdir('') or chdir(undef) as chdir()                                    
+        comma-less variable list (in format)                                    
+        defined(%hash)                                                          
+        defined(@array)                                                         
+        hash missing the % in argument                                          
+        implicit split to @_                                                    
+        inherited AUTOLOAD for non-method                                       
+        my() in false conditional                                               
+        opening dirhandle also as a file                                        
+        opening filehandle also as a directory                                  
