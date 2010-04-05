@@ -10,7 +10,10 @@ are annotated as "[fixed: 5.12.1]"
 
 = CPAN modules known to have issues with 5.12.0 =
 
-* 
+* Regexp::Copy
+  This module hasn't been updated since 2003 and makes outdated assumptions about Perl's internal representation of Regexps
+
+
 = Features deprecated in earlier releases of Perl which didn't previously warn =
 
         "do" to call subroutines                                                
